@@ -1,0 +1,23 @@
+.about__section {
+    background-color: #e5e7eb;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:200px;
+}
+
+.imgProfile {
+    height: 400px;
+    width : auto;
+    border-radius: 500px;
+}
+
+.pProfile {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+    font-weight: 100;
+}

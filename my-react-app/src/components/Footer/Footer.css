@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #121212;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.footer_text {
+    font-family: 'quicksand', sans-serif;
+}
