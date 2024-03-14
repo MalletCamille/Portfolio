@@ -5,12 +5,20 @@
     flex-direction: row;
     justify-content: space-between;
     gap:200px;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .imgProfile {
     height: 400px;
     width : auto;
     border-radius: 500px;
+    margin-left: 70px;
 }
 
 .pProfile {
@@ -19,5 +27,15 @@
     padding: 10px;
     margin: 20px;
     text-align: justify;
-    font-weight: 100;
+    font-weight: 200;
+    color: black;
+}
+
+.spanProfile {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    color: black;
+    text-decoration: underline overline #B487BC;
 }
