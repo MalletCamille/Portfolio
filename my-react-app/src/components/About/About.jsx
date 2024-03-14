@@ -5,7 +5,7 @@ import { Fragment } from 'react';
 function About() {
     return (
         <Fragment>
-            <h2>À propos</h2>
+            <h2 id="about">À propos</h2>
             <section className="about__section">
                 <img className='imgProfile' src={imgProfile}></img>
                 <p className='pProfile'>

@@ -6,12 +6,11 @@ function Header() {
             <nav className='navigation'>
                 <ul className='navigation__list'>
                     <li><a href='#'>Accueil</a></li>
-                    <li><a href='#'>À propos</a></li>
-                    <li><a href='#'>Mes compétences</a></li>
+                    <li><a href='#about'>À propos</a></li>
+                    <li><a href='#skill'>Mes compétences</a></li>
                     <li><a href='#'>Mes projets</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='#contact'>Contact</a></li>
                 </ul>
-
             </nav>
         </header>
     );

@@ -1,0 +1,58 @@
+.form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    max-width: 600px; /* Limite la largeur maximale du formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+}
+
+.input,
+.message {
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black; /* Trait horizontal */
+    padding-bottom: 5px; /* Espace sous le trait horizontal */
+    background-color: transparent; /* Fond transparent */
+    outline: none; /* Supprime l'encadrement au clic */
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+}
+
+.input-group > label {
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    flex: 1; /* Les étiquettes s'étendent pour occuper le même espace */
+}
+
+.input--full-width {
+    width: 1000px;
+    height: 150px;
+    margin-left:
+}
+
+.button {
+    width: 100%; /* La largeur du bouton occupe toute la largeur */
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: #333; /* Couleur de survol */
+}
