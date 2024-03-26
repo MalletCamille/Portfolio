@@ -25,34 +25,50 @@ function Form() {
     return (
         <Fragment>
             <h2 id='contact'>Me Contacter</h2>
-            <form className='form' onSubmit={handleSubmit}>
-                <div className='input-group'>
-                    <label className='label'>
-                        Nom:
-                        <input className='input' type="text" name="nom" value={formData.nom} onChange={handleChange} />
-                    </label>
-                    <label className='label'>
-                        Téléphone:
-                        <input className='input' type="tel" name="telephone" value={formData.telephone} onChange={handleChange} />
-                    </label>
+            <section className='contact_section'>
+                <form className='form' onSubmit={handleSubmit}>
+                    <div className='input-group'>
+                        <label htmlFor="name" className='label' >Nom:</label>
+                        <input id="name" className='input' type="text" name="nom" value={formData.nom} onChange={handleChange} />
+                        <label className='label' htmlFor='telephone'>Téléphone:</label>                                            
+                        <input id="telephone" className='input' type="tel" name="telephone" value={formData.telephone} onChange={handleChange} />
+                    </div>
+                    <div className='input-group'>
+                        <label htmlFor='email' className='label'>Email:</label>
+                        <input id="email" className='input' type="email" name="email" value={formData.email} onChange={handleChange} />
+                        <label className='label' htmlFor='objet'>Objet:</label>
+                        <input className='input' id="objet" type="text" name="objet" value={formData.objet} onChange={handleChange} />
+                    </div>
+                    <label htmlFor='message' className='label'>Message:</label>
+                    <textarea id="mesage" className='message input--full-width' name="message" value={formData.message} onChange={handleChange} />
+                    <button className='button' type="submit">Envoyer</button>
+                </form>
+                <div className='informations_contact'>
+                    <h3>Contactez-moi</h3>
+                    <div className='content_informations'>
+                        <i className="icon fa-solid fa-at"></i>
+                        <div className='container_span'>
+                            <span className='title_informations'>Envoyer un e-mail</span>
+                            <span className='informations'>mallet.camille11@gmail.com</span>
+                        </div>
+                    </div>
+                    <div className='content_informations'>
+                        <i className="icon fa-solid fa-phone"></i>
+                        <div className='container_span'> 
+                            <span className='title_informations'>Numéro de téléphone</span>
+                            <span className='informations'>06 67 24 40 31</span>
+                        </div>
+                    </div>
+                    <div className='content_informations'>
+                        <i className="icon fa-solid fa-location-dot"></i>
+                        <div className='container_span'> 
+                            <span className='title_informations'>Localisation</span>
+                            <span className='informations'>Carcassonne, Occitanie</span>
+                            <span className='informations_special'>Ou disponible à distance</span>
+                        </div>
+                    </div>                
                 </div>
-                <div className='input-group'>
-                    <label className='label'>
-                        Email:
-                        <input className='input' type="email" name="email" value={formData.email} onChange={handleChange} />
-                    </label>
-                    <label className='label'>
-                        Objet:
-                        <input className='input' type="text" name="objet" value={formData.objet} onChange={handleChange} />
-                    </label>
-                </div>
-                <label className='label' style={{ fontFamily: 'poppins', fontSize: '18px', fontWeight: '200' }}>
-                    Message:
-                    <textarea className='input input--full-width' name="message" value={formData.message} onChange={handleChange} />
-                </label>
-
-                <button className='button' type="submit">Envoyer</button>
-            </form>
+            </section>
         </Fragment>
     );
 }
