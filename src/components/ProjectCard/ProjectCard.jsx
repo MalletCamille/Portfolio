@@ -5,21 +5,24 @@ const projects = [
   {
     title: "Oh my Food",
     repo: "https://github.com/MalletCamille/ohmyfood",
-    img: 'src/assets/images/Projects/ohmyfood.png',
-    technos: ['src/assets/images/logos/sass.png']
+    img: 'public/assets/images/Projects/ohmyfood.png',
+    technos: ['public/assets/images/logos/sass.png'],
+    description: "Application en mobile first de réservation de plat en ligne"
     
   },
   {
     title: "Kasa",
     repo: "https://github.com/MalletCamille/Kasa",
-    img: 'src/assets/images/Projects/kasa.png',
-    technos: ['src/assets/images/logos/react.png','src/assets/images/logos/sass.png']
+    img: 'public/assets/images/Projects/kasa.png',
+    technos: ['public/assets/images/logos/react.png','public/assets/images/logos/sass.png'],
+    description: "Application de réservation de logements en ligne"
   },
   {
     title: "ArgentBank",
     repo: "https://github.com/MalletCamille/ArgentBank-website",
-    img: 'src/assets/images/Projects/argentbank.png',
-    technos:['src/assets/images/logos/react.png','src/assets/images/logos/redux.png']
+    img: 'public/assets/images/Projects/argentbank.png',
+    technos:['public/assets/images/logos/react.png','public/assets/images/logos/redux.png'],
+    description: "Application bancaire sous React redux"
   }
 ];
 
@@ -37,6 +40,7 @@ function ProjectCard() {
                   <img className='techno_img' src={techno} key={index}></img> 
                 ))}
               </div>
+              <span className='techno_description'>{project.description}</span>
               <p className='repository'><a href={project.repo} target="_blank">Lien vers le repository github</a></p>
             </div>
         ))}

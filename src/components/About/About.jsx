@@ -1,5 +1,5 @@
 import './About.css';
-import imgProfile from '../../assets/images/profile.jpg';
+import imgProfile from '/assets/images/profile.jpg';
 import { Fragment } from 'react';
 
 function About() {
