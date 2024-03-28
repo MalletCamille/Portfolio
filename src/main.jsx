@@ -8,6 +8,7 @@ import Banner from './components/Banner/Banner.jsx'
 import Skill from './components/Skills/Skill.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import ProjectCard from './components/ProjectCard/ProjectCard.jsx'
+import Button from './components/Button/Button.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Skill></Skill>
     <ProjectCard></ProjectCard>
     <Contact></Contact>
+    <Button></Button>
     <Footer></Footer>
   </React.StrictMode>,
 )

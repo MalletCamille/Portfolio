@@ -1,27 +1,33 @@
 import { Fragment } from 'react';
 import '../ProjectCard/ProjectCard.css';
+import ohmyfood from '../../../public/assets/images/Projects/ohmyfood.png'
+import kasa from '../../../public/assets/images/Projects/kasa.png'
+import argentbank from '../../../public/assets/images/Projects/argentbank.png'
+import sass from '../../../public/assets/images/logos/sass.png'
+import react from '../../../public/assets/images/logos/react.png'
+import redux from '../../../public/assets/images/logos/redux.png'
 
 const projects = [
   {
     title: "Oh my Food",
     repo: "https://github.com/MalletCamille/ohmyfood",
-    img: 'public/assets/images/Projects/ohmyfood.png',
-    technos: ['public/assets/images/logos/sass.png'],
+    img: ohmyfood,
+    technos: [sass],
     description: "Application en mobile first de réservation de plat en ligne"
     
   },
   {
     title: "Kasa",
     repo: "https://github.com/MalletCamille/Kasa",
-    img: 'public/assets/images/Projects/kasa.png',
-    technos: ['public/assets/images/logos/react.png','public/assets/images/logos/sass.png'],
+    img: kasa,
+    technos: [react, sass],
     description: "Application de réservation de logements en ligne"
   },
   {
     title: "ArgentBank",
     repo: "https://github.com/MalletCamille/ArgentBank-website",
-    img: 'public/assets/images/Projects/argentbank.png',
-    technos:['public/assets/images/logos/react.png','public/assets/images/logos/redux.png'],
+    img: argentbank,
+    technos:[react, redux],
     description: "Application bancaire sous React redux"
   }
 ];

@@ -1,0 +1,16 @@
+.button {
+    border-radius: 100px;
+    background-color: #B487BC;
+    outline: none;
+    border: solid white 1px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.button_icon {
+    padding: 20px;
+    font-size: 15px;
+    color: #e5e7eb;
+}
