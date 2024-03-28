@@ -1,0 +1,10 @@
+{
+    "projects": [
+      {
+        "title": "Oh my Food",
+        "repo": "https://github.com/MalletCamille/ohmyfood",
+        "url": "https://malletcamille.github.io/ohmyfood/",
+        "img": "../src/assets/images/Projects/ohmyfood.png"
+      }
+    ]
+  }
