@@ -6,7 +6,8 @@ import Footer from './components/Footer/Footer.jsx'
 import About from './components/About/About.jsx'
 import Banner from './components/Banner/Banner.jsx'
 import Skill from './components/Skills/Skill.jsx'
-import Form from './components/Form/Form.jsx'
+import Contact from './components/Contact/Contact.jsx'
+import ProjectCard from './components/ProjectCard/ProjectCard.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,7 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Banner></Banner>
     <About></About>
     <Skill></Skill>
-    <Form></Form>
+    <ProjectCard></ProjectCard>
+    <Contact></Contact>
     <Footer></Footer>
   </React.StrictMode>,
 )

@@ -6,7 +6,7 @@ function About() {
     return (
         <Fragment>
             <h2 id="about">À propos</h2>
-            <section className="about__section">
+            <section className="about__section" id="about__section">
                 <img className='imgProfile' src={imgProfile}></img>
                 <p className='pProfile'>
                     Passionnée par le développement front-end et la création d'interfaces utilisateurs intuitives,<br/>

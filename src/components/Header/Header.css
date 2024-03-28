@@ -26,3 +26,8 @@
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: #B487BC; 
+}
