@@ -29,21 +29,23 @@ const projects = [
 function ProjectCard() {
   return (
     <Fragment>
-        <h2>Mes Projets</h2>
         <section className="section projects_container" id="projects_section">
-        {projects.map((project, index) => (
-            <div className='project_card' key={index}>  
-              <h3>{project.title}</h3>
-              <img className='project_img' src={project.img}></img>
-              <div className='techno_container'>
-                {project.technos.map((techno, index) => (
-                  <img className='techno_img' src={techno} key={index}></img> 
-                ))}
+          <h2>Mes Projets</h2>
+          <div className='content_projects_section'>
+            {projects.map((project, index) => (
+              <div className='project_card' key={index}>  
+                <h3>{project.title}</h3>
+                <img className='project_img' src={project.img}></img>
+                <div className='techno_container'>
+                  {project.technos.map((techno, index) => (
+                    <img className='techno_img' src={techno} key={index}></img> 
+                  ))}
+                </div>
+                <span className='techno_description'>{project.description}</span>
+                <p className='repository'><a href={project.repo} target="_blank">Lien vers le repository github</a></p>
               </div>
-              <span className='techno_description'>{project.description}</span>
-              <p className='repository'><a href={project.repo} target="_blank">Lien vers le repository github</a></p>
-            </div>
-        ))}
+            ))}
+          </div>
         </section>
     </Fragment>
   );

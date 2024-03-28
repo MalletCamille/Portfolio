@@ -11,17 +11,9 @@
 }
 
 .informations_contact {
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 40px;
-    background-color: #e5e7eb;
-    border-radius: 25px;
-    gap: 25px;
-    margin-bottom: 50px;
-    box-shadow: 7px 7px 5px rgba(0,0,0,0.25);
-    text-align: left;
+    align-items: center;
 }
 
 .content_informations {
@@ -54,4 +46,18 @@
 .container_span {
     display: flex;
     flex-direction: column;
+}
+
+.content_contact_section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #e5e7eb;
+    border-radius: 25px;
+    gap: 25px;
+    margin-bottom: 100px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.25);
+    text-align: left;
 }

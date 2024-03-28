@@ -1,16 +1,8 @@
 .about__section {
     margin-top: 30px;
-    background-color: #e5e7eb;
-    padding: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:80px;
+    flex-direction: column;
     align-items: center;
-    border-radius: 25px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 80%;
 }
 
 .imgProfile {
@@ -37,4 +29,19 @@
     font-weight: 400;
     color: black;
     text-decoration: underline overline #B487BC;
+}
+
+.content_about_section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:80px;
+    background-color: #e5e7eb;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
 }

@@ -28,6 +28,5 @@
 }
 
 .active {
-    text-decoration: underline;
-   background-color: red;
+   border-bottom: solid 5px #B487BC;
 }

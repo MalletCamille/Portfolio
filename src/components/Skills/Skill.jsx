@@ -10,14 +10,16 @@ import logoredux from '/assets/images/logos/redux.png'
 function Skill() {
     return (
         <Fragment>
-            <h2 id="skill">Mes compétences</h2>
         <section className='skillSection section' id="skills_section">
-            <img className='logoimg' src={logoJS}></img>
-            <img className='logonodejs' src={logonodeJS}></img>
-            <img className='logoimg' src={logoreact}></img>
-            <img className='logoimg' src={logosass}></img>
-            <img className='logoimg' src={logovscode}></img>
-            <img className='logoimg' src={logoredux}></img>
+            <h2 id="skill" className='skills_title'>Mes compétences</h2>
+            <div className='content_skills_section'>
+                <img className='logoimg' src={logoJS}></img>
+                <img className='logonodejs' src={logonodeJS}></img>
+                <img className='logoimg' src={logoreact}></img>
+                <img className='logoimg' src={logosass}></img>
+                <img className='logoimg' src={logovscode}></img>
+                <img className='logoimg' src={logoredux}></img>
+            </div>
         </section>
         </Fragment>
     )
