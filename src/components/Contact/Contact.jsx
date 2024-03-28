@@ -5,7 +5,7 @@ function Contact() {
     return (
         <Fragment>
             <h2 id='contact'>Me Contacter</h2>
-            <section className='informations_contact' id="contact_section">
+            <section className='section informations_contact' id="contact_section">
                 <h3>Contactez-moi</h3>
                 <div className='content_informations'>
                     <i className="icon fa-solid fa-at"></i>

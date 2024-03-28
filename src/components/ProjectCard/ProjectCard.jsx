@@ -30,7 +30,7 @@ function ProjectCard() {
   return (
     <Fragment>
         <h2>Mes Projets</h2>
-        <section className="projects_container" id="projects_section">
+        <section className="section projects_container" id="projects_section">
         {projects.map((project, index) => (
             <div className='project_card' key={index}>  
               <h3>{project.title}</h3>

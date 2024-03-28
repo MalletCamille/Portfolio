@@ -11,7 +11,7 @@ function Skill() {
     return (
         <Fragment>
             <h2 id="skill">Mes compétences</h2>
-        <section className='skillSection' id="skills_section">
+        <section className='skillSection section' id="skills_section">
             <img className='logoimg' src={logoJS}></img>
             <img className='logonodejs' src={logonodeJS}></img>
             <img className='logoimg' src={logoreact}></img>

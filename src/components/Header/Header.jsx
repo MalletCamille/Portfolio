@@ -8,13 +8,17 @@ function Header() {
         const handleScroll = () => {
             const sections = document.querySelectorAll('.section');
             sections.forEach(section => {
-                const sectionTop = section.offsetTop;
+                const sectionTop = section.offsetTop; 
                 const sectionHeight = section.clientHeight;
+                console.log(section.id, window.scrollY, sectionTop, sectionHeight);
                 if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
                     setActiveSection(section.id);
                 }
+                
             });
+        console.log(activeSection);
         };
+
 
         window.addEventListener('scroll', handleScroll);
 
