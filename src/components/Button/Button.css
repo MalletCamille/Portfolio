@@ -20,3 +20,16 @@
     font-size: 15px;
     color: #e5e7eb;
 }
+
+/******************** Media queries ********************/
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .button {
+        right: 20px;
+        bottom: 20px;
+    }
+    .button_icon {
+        padding: 15px;
+    }
+
+} 
