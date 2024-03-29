@@ -70,16 +70,18 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
     .content_contact_section {
-        width: 60%;
-        min-width: auto;
         text-overflow : '...';
         text-overflow : ellipsis;
         text-overflow : ellipsis '.';
         white-space: nowrap;
         overflow: hidden;
+        padding: 5px;
+        width: 60%;
+        min-width: 320px;
     }
     .content_informations {
         gap: 25px;
+        padding-left: 12px;
     }
     .icon {
         display: none;
