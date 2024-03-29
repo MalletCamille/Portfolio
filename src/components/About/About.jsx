@@ -8,7 +8,7 @@ function About() {
             <section className="section about__section" id="about_section">
             <h2 id="about">À propos</h2>
                 <div className='content_about_section'>
-                    <img className='imgProfile' src={imgProfile}></img>
+                    <img className='imgProfile' src={imgProfile} alt="Photo de Profil de Camille.M"></img>
                     <p className='pProfile'>
                         Passionnée par le développement front-end et la création d'interfaces utilisateurs intuitives,<br/>
                         J'ai débuté mon parcours dans le monde du web.

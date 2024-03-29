@@ -37,6 +37,16 @@
     color:  #B487BC;
 }
 
+.informations a {
+    text-decoration: none;
+    color:  #B487BC;
+    cursor: pointer;
+}
+
+.informations a:hover {
+    color:  #af5dbe;
+}
+
 .informations_special {
     font-family: 'poppins';
     font-size: 1.3rem;

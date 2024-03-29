@@ -41,10 +41,10 @@ function ProjectCard() {
             {projects.map((project, index) => (
               <div className='project_card' key={index}>  
                 <h3>{project.title}</h3>
-                <img className='project_img' src={project.img}></img>
+                <img className='project_img' src={project.img} alt="image illustrant la page index du projet"></img>
                 <div className='techno_container'>
                   {project.technos.map((techno, index) => (
-                    <img className='techno_img' src={techno} key={index}></img> 
+                    <img className='techno_img' src={techno} key={index} alt="logo illustrant la technologie utilisée pour le projet"></img> 
                   ))}
                 </div>
                 <span className='techno_description'>{project.description}</span>
