@@ -1,4 +1,11 @@
-.imgBanner{
+.content_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.img_banner{
     margin-top: 68px;
     height:400px;
     object-fit: cover;

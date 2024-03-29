@@ -45,3 +45,34 @@
     padding-bottom: 30px;
     width: 80%;
 }
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .content_about_section {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .imgProfile {
+        height: 400px;
+        width : auto;
+        border-radius: 600px;
+        margin-left: 0px;
+    }
+}
+
+/******************** Media queries ********************/
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .content_about_section {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .imgProfile {
+        height: 250px;
+        width : auto;
+        border-radius: 500px;
+        margin-left: 0px;
+    }
+} 

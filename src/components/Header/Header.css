@@ -19,7 +19,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'quicksand', sans-serif;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .navigation__list a {
@@ -30,3 +30,26 @@
 .active {
    border-bottom: solid 5px #B487BC;
 }
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media screen and (max-width: 1024px) {
+    .navigation__list {
+        font-size: 18px;
+        flex-wrap: wrap;
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/******************** Media queries ********************/
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .navigation__list {
+        font-size: 15px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        padding-right: 0;
+    }
+} 
