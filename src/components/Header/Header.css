@@ -7,7 +7,7 @@
     z-index: 100;
     background-color: white;
     margin-right: 30px;
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .navigation__list {
@@ -26,6 +26,10 @@
 .navigation__list a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.navigation__list a:hover {
+    color: black;    
 }
 
 .active {
